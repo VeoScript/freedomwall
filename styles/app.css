@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.header {
+  @apply font-bold text-5xl
+}
+
+.sub-header {
+  @apply font-bold text-xl
+}
+
+.title {
+  @apply font-normal text-xl
+}
+
+.sub-title {
+  @apply font-normal text-base
+}
+
+.button-primary {
+  @apply inline-flex items-center justify-center px-4 py-2 text-white border border-blue-600 bg-blue-500 rounded-md
+}
+
+.button-success {
+  @apply inline-flex items-center justify-center px-4 py-2 text-black border border-green-600 bg-green-500 rounded-md
+}
+
+.button-warning {
+  @apply inline-flex items-center justify-center px-4 py-2 text-black border border-orange-600 bg-orange-500 rounded-md
+}
+
+.button-danger {
+  @apply inline-flex items-center justify-center px-4 py-2 text-black border border-red-600 bg-red-500 rounded-md
+}
